@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Earthquake">
+  <!-- Epicenter shock rings -->
+  <g fill="none" stroke="#f97316" stroke-linecap="round">
+    <circle cx="100" cy="92" r="18" stroke-width="5" opacity="0.95"/>
+    <circle cx="100" cy="92" r="36" stroke-width="4" opacity="0.65"/>
+    <circle cx="100" cy="92" r="56" stroke-width="3" opacity="0.4"/>
+    <circle cx="100" cy="92" r="78" stroke-width="2" opacity="0.2"/>
+  </g>
+  <circle cx="100" cy="92" r="7" fill="#dc2626"/>
+
+  <!-- Seismograph trace -->
+  <polyline fill="none" stroke="#dc2626" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"
+    points="10,92 40,92 50,80 58,104 66,62 76,124 86,40 96,140 104,52 114,118 124,72 132,104 140,86 150,96 160,92 190,92"/>
+
+  <!-- Cracked ground -->
+  <path fill="#78716c"
+    d="M20 160 H92 L100 172 L94 184 H20 Z"/>
+  <path fill="#57534e"
+    d="M180 160 H108 L114 170 L104 184 H180 Z"/>
+  <path fill="none" stroke="#44403c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+    d="M100 152 L96 160 L104 168 L98 178 L102 190"/>
+</svg>
